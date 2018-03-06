@@ -33,8 +33,9 @@
     <script id='myTemplate' type='text/ractive'>
 	
 			{{#weather}}
+             {{applicable_date}}
+            <li>{{min_temp}}</li>
 			<li><img src="https://www.metaweather.com/static/img/weather/{{weather_state_abbr}}.svg" height="24" width="24">{{weather_state_name}}</li>
-            
 			{{/weather}}
 
     </script>
