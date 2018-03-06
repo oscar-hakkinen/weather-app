@@ -33,7 +33,8 @@
     <script id='myTemplate' type='text/ractive'>
 	
 			{{#weather}}
-			<li>{{ weather_state_abbr }}</li>
+			<li>{{weather_state_name}}</li>
+            <img>{{weather_state_abbr}}</img>
 			{{/weather}}
 
     </script>
